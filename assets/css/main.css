@@ -4,7 +4,7 @@ body {
     font-weight: 300;
     font-size: 16px;
     color: #555;
-    -webkit-font-smoothing: antialiased;
+    /*-webkit-font-smoothing: antialiased;*/
     -webkit-overflow-scrolling: touch;
 }
 h1, h2, h3, h4, h5, h6 {
@@ -209,7 +209,7 @@ hr {
     transition: all .1s ease-in-out;
 }
 #headerwrap {
-    background: url(../img/header-bg1.jpg) no-repeat center top;
+    background: url(../img/hero.png) no-repeat center top;
     margin-top: -10px;
     padding-top: 20px;
     text-align: center;
@@ -227,7 +227,9 @@ hr {
     background-size: cover;
 }
 #headerwrap h1 {
-    margin-top: 130px;
+    font-weight: 100 !important;
+    font-size: 120px !important;
+    margin-top: 220px;
     color: #fff;
     font-size: 140px;
     font-weight: 700;
@@ -235,6 +237,7 @@ hr {
 }
 #headerwrap h2 {
     color: #fff;
+    font-weight: 300 !important;
     font-size: 50px;
     font-weight: 100;
     letter-spacing: 2px;
@@ -527,10 +530,10 @@ hr {
     display: block;
     max-width: 100%}
 .grid img {
-    opacity: .7;
+    opacity: 1;
 }
 .grid img:hover {
-    opacity: 1;
+    /*opacity: 0.7;*/
 }
 .grid.effect-2 li.animate {
     -webkit-transform: translateY(200px);
@@ -555,4 +558,8 @@ hr {
     transform: translateY(0);
     opacity: 1;
 }
+}
+
+.hide {
+    display: none;
 }
