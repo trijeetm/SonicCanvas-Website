@@ -98,29 +98,47 @@
 	<div id="services">
 		<div class="container">
 			<div class="row mt">
-				<div class="col-lg-1 centered">
-					<i class="fa fa-certificate"></i>
+				<div class="col-lg-3 centered">
+					<i class="fa fa-lightbulb-o"></i>
 				</div>
-				<div class="col-lg-3">
-					<h3>Quality Design</h3>
-					<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+				<div class="col-lg-8">
+					<h3>Motivation</h3>
+					<p>
+						As an artist, I'm always looking to create new things, and find new ways to express myself.
+						<br>
+						The project was to craft a social music experience, and I wanted to explore a fusion of audio and visuals.
+						<br>
+						So I asked myself, what if you could paint music?
+					</p>
 				</div>
 
-				<div class="col-lg-1 centered">
-					<i class="fa fa-question-circle"></i>
+				<div class="col-lg-3 centered">
+					<i class="fa fa-heart"></i>
 				</div>
-				<div class="col-lg-3">
-					<h3>Awesome Support</h3>
-					<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+				<div class="col-lg-8">
+					<h3>Experiential Design</h3>
+					<p>
+						Let's start with the creation experience. The user is presented a canvas, on to which the can paint on with their fingers, and control the color and size of the brush if they choose to. And as they paint, each stroke of their brush generates music, where each color has a distinctive sound, whose dynamics increase as you use it more. This results in an almost surreal method of artistic expression, where you can keep painting and explore more, or revel in the moment and enjoy the experience.
+						<br>
+						And then there is the social experience. One interesting dynamic is through the fact that people are interacting and creating works of art with complete strangers, which resulting in a whismical social scenario, a mixture of shyness, hesitation, and also healthy collaboration.
+						<br>
+						And always, there are the observers. The observers who experience the art being created, whether it is at its nascent form, or whether it has evolved to an artistic behemoth. They float around the world of SonicCanvases, experience the newest form of social, mobile art.
+					</p>
 				</div>
 			
 			
-				<div class="col-lg-1 centered">
-					<i class="fa fa-globe"></i>
+				<div class="col-lg-3 centered">
+					<i class="fa fa-cogs"></i>
 				</div>
-				<div class="col-lg-3">
-					<h3>Global Services</h3>
-					<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+				<div class="col-lg-8">
+					<h3>System Architecture</h3>
+					<p>
+						Warning: Technical stuff. Feel free to completely ignore, or bother me with emails if interested.
+						<br>
+						The app is built using a hybrid Javascript stack, allowing it to be built for any mobile device that supports WebKit browsers.
+						<br>
+						I've used Ionic + AngularJS for my front-end, along with Firebase for a real-time datastore, and the Cordova platform for device level APIs. The canvases are implemented using Sketch.js, a library which leverages the HTML5 Canvas API to generate touch compatible graphics. All audio is being synthesized on device using the MIDI.js library and Web Audio API by rendering soundfonts (yes, this required a gnarly battle with Cordova to support WebKit webviews).
+					</p>
 				</div>
 			
 			</div><!-- row -->
@@ -193,10 +211,17 @@
 	<div id="call">
 		<div class="container">
 			<div class="row">
-				<h3>THIS IS A CALL TO ACTION AREA</h3>
+				<h1>&nbsp;</h1>
+				<h3>SonicCanvas: Coming soon to an App Store near you!</h3>
 				<div class="col-lg-8 col-lg-offset-2">
-					<p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
-					<p><button type="button" class="btn btn-green btn-lg">Call To Action Button</button></p>
+					<p>
+						However, as I put finishing touches and test the app, feel free to explore the source code, or test out the app. The entire project is available on Github, and you can run the app either in the browser, or in an iOS simulator (check online on how to run Ionic apps, or ping me). 
+					</p>
+					<p>
+						<a href="https://github.com/trijeetm/SonicCanvas">
+							<button type="button" class="btn btn-green btn-lg">View on Github</button>
+						</a>
+					</p>
 				</div>
 			</div><!-- row -->
 		</div><!-- container -->
@@ -204,9 +229,13 @@
 	
 	<div class="container">
 		<div class="row mt">
-			<div class="col-lg-12">
-				<h1>Stay Connected</h1>
-				<p>Join us on our social networks for all the latest updates, product/service announcements and more.</p>
+			<div class="col-lg-8">
+				<h1>About me!</h1>
+				<p>
+					Yes, here is the part where I bore you with details of me. But I won't, except with the fact I'm the person who built this, and if you want to know more about me, <a href="http://trijeetm.github.io/">click here</a>!
+					<br>
+					Feel free to ping me if you want to banter, or have some feedback.
+				</p>
 				<br>
 			</div><!-- col-lg-12 -->
 		</div><!-- row -->
@@ -214,8 +243,8 @@
 	
 	
 	<!-- SOCIAL FOOTER -->
-	<section id="contact"></section>
-	<div id="sf">
+	<section id="contact" class="hide"></section>
+	<div id="sf" class="hide">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-4 dg">
